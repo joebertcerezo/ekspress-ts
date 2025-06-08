@@ -1,10 +1,18 @@
 # Ekspress TS
 
 ## Dependencies Installed
-* express
 
-* typescript
-* @types/express
+  # Dependencies
+  * express
+  * prisma
+  * @prisma/client
+
+  ### DevDependencies
+  * @types/express
+  * @types/node
+  * typescript
+  * nodemon
+  * typescript
 
 # Setup Express with typescript
 1. Initialize node project
@@ -19,9 +27,13 @@
 ```
   npm install -D typescript
 ```
-4. Initialize tsconfig typescript config file
+4. Initialize tsconfig, typescript config file
 ```
   npx tsc --init
+```
+5. Setup package.json script setup
+```
+
 ```
 
 ```
