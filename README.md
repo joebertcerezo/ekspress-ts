@@ -6,6 +6,7 @@
 * typescript
 * @types/express
 
+```
 "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
@@ -33,3 +34,4 @@
     "ts-node": "^10.9.2",
     "typescript": "^5.6.3"
   }
+```
