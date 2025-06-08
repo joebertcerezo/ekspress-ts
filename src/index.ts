@@ -1,1 +1,3 @@
-const express = require
+import express from 'express';
+
+console.log("Hello world")
