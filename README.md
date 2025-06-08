@@ -6,6 +6,24 @@
 * typescript
 * @types/express
 
+# Setup Express with typescript
+1. Initialize node project
+```
+  npm init --y
+```
+2. Install express
+```
+  npm install express
+```
+3. Install typescript
+```
+  npm install -D typescript
+```
+4. Initialize tsconfig typescript config file
+```
+  npx tsc --init
+```
+
 ```
 "dependencies": {
     "cors": "^2.8.5",
