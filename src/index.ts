@@ -1,5 +1,7 @@
-import express from 'express';
-import { hay } from './hay';
+import app from "./app";
 
-console.log("Hedllddasdf")
-console.log(hay)
+const PORT = 8080
+
+app.listen(PORT, () => {
+  console.log(`🚀 Server running on port ${PORT}`);
+})
